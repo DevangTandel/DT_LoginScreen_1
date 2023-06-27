@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		0BF9A3EA2A498F7A00F25284 /* DT_Login1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF9A3E92A498F7A00F25284 /* DT_Login1App.swift */; };
-		0BF9A3EC2A498F7A00F25284 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF9A3EB2A498F7A00F25284 /* ContentView.swift */; };
 		0BF9A3EE2A498F7B00F25284 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF9A3ED2A498F7B00F25284 /* Assets.xcassets */; };
 		0BF9A3F12A498F7B00F25284 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF9A3F02A498F7B00F25284 /* Preview Assets.xcassets */; };
+		0BF9A3F82A49932400F25284 /* IntialScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF9A3F72A49932400F25284 /* IntialScreen.swift */; };
+		0BF9A3FE2A49B28200F25284 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF9A3FD2A49B28200F25284 /* LoginScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0BF9A3E62A498F7A00F25284 /* DT_Login1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DT_Login1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BF9A3E92A498F7A00F25284 /* DT_Login1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DT_Login1App.swift; sourceTree = "<group>"; };
-		0BF9A3EB2A498F7A00F25284 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0BF9A3ED2A498F7B00F25284 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BF9A3F02A498F7B00F25284 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0BF9A3F72A49932400F25284 /* IntialScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntialScreen.swift; sourceTree = "<group>"; };
+		0BF9A3FD2A49B28200F25284 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,9 @@
 		0BF9A3E82A498F7A00F25284 /* DT_Login1 */ = {
 			isa = PBXGroup;
 			children = (
+				0BF9A3F72A49932400F25284 /* IntialScreen.swift */,
+				0BF9A3FD2A49B28200F25284 /* LoginScreen.swift */,
 				0BF9A3E92A498F7A00F25284 /* DT_Login1App.swift */,
-				0BF9A3EB2A498F7A00F25284 /* ContentView.swift */,
 				0BF9A3ED2A498F7B00F25284 /* Assets.xcassets */,
 				0BF9A3EF2A498F7B00F25284 /* Preview Content */,
 			);
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BF9A3EC2A498F7A00F25284 /* ContentView.swift in Sources */,
+				0BF9A3F82A49932400F25284 /* IntialScreen.swift in Sources */,
 				0BF9A3EA2A498F7A00F25284 /* DT_Login1App.swift in Sources */,
+				0BF9A3FE2A49B28200F25284 /* LoginScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
